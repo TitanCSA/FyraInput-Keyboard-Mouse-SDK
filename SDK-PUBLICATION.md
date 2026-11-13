@@ -6,12 +6,12 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | fyrainput-keyboard-mouse |
 | CPP/conan | published_custom_source_index | [fyrainput-keyboard-mouse](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | FyraInput-Keyboard-Mouse.Native |
-| NET/nuget | built_verified_requires_trusted_publishing_policy | FyraInputKeyboardMouse.SDK [Source](FyraInput-Keyboard-Mouse-NET-nuget/) |
+| CPP/nuget | published_payload_verified | [FyraInput-Keyboard-Mouse.Native](https://www.nuget.org/packages/FyraInput-Keyboard-Mouse.Native/0.1.0) |
+| NET/nuget | published_payload_verified | [FyraInputKeyboardMouse.SDK](https://www.nuget.org/packages/FyraInputKeyboardMouse.SDK/1.0.0) |
 | Python/pypi | built_fixture_and_production_verified | fyrainput-keyboard-mouse [Source](FyraInput-Keyboard-Mouse-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [fyrainput-keyboard-mouse](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [fyrainput-keyboard-mouse](https://crates.io/crates/fyrainput-keyboard-mouse) [Source](FyraInput-Keyboard-Mouse-Rust-cargo/) |
-| JavaScript/npm | registry_publication_requires_action | [fyrainput-keyboard-mouse](https://www.npmjs.com/package/fyrainput-keyboard-mouse) [Source](FyraInput-Keyboard-Mouse-JavaScript-npm/) |
+| JavaScript/npm | submitted_requires_indexing | fyrainput-keyboard-mouse [Source](FyraInput-Keyboard-Mouse-JavaScript-npm/) |
 | Java/maven | published_install_verified | [fyrainput-keyboard-mouse](https://central.sonatype.com/artifact/io.github.titancsa/fyrainput-keyboard-mouse/1.0.0) [Source](FyraInput-Keyboard-Mouse-Java-maven/) |
 | Java/jitpack | published_install_verified | [fyrainput-keyboard-mouse](https://jitpack.io/#TitanCSA/FyraInput-Keyboard-Mouse-SDK/java-sdk-v1.0.0) [Source](FyraInput-Keyboard-Mouse-Java-maven/) |
 | Go/modules | published_install_verified | [fyrainput-keyboard-mouse](https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0) [Source](FyraInput-Keyboard-Mouse-Go-modules/) |
