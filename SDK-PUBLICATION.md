@@ -5,21 +5,21 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | fyrainput-keyboard-mouse |
-| CPP/conan | public_recipe_builds_locally |  |
+| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | FyraInput-Keyboard-Mouse.Native |
-| NET/nuget | binding_not_implemented |  |
-| Python/pypi | binding_not_implemented |  |
-| Python/conda-forge | binding_not_implemented |  |
-| Rust/cargo | binding_not_implemented |  |
-| JavaScript/npm | binding_not_implemented |  |
-| Java/maven | binding_not_implemented |  |
-| Java/jitpack | binding_not_implemented |  |
-| Go/modules | binding_not_implemented |  |
-| Go/pkg-go-dev | binding_not_implemented |  |
-| PowerShell/gallery | binding_not_implemented |  |
-| Dart/pub-dev | prepared_source_native_verified | `fyrainput_keyboard_mouse` [Source](FyraInput-Keyboard-Mouse-Dart-pub-dev/) |
-| Ruby/rubygems | binding_not_implemented |  |
-| PHP/packagist | binding_not_implemented |  |
+| NET/nuget | built_verified_publication_on_hold_by_owner | FyraInputKeyboardMouse.SDK [Source](FyraInput-Keyboard-Mouse-NET-nuget/) |
+| Python/pypi | built_fixture_and_production_verified | fyrainput-keyboard-mouse [Source](FyraInput-Keyboard-Mouse-Python-pypi/) |
+| Python/conda-forge | built_tested_requires_official_review | fyrainput-keyboard-mouse [Source](packaging/conda/) |
+| Rust/cargo | published_install_verified | [fyrainput-keyboard-mouse](https://crates.io/crates/fyrainput-keyboard-mouse) [Source](FyraInput-Keyboard-Mouse-Rust-cargo/) |
+| JavaScript/npm | awaiting_browser_publication_authentication | [fyrainput-keyboard-mouse](https://www.npmjs.com/package/fyrainput-keyboard-mouse) [Source](FyraInput-Keyboard-Mouse-JavaScript-npm/) |
+| Java/maven | published_install_verified | [fyrainput-keyboard-mouse](https://central.sonatype.com/artifact/io.github.titancsa/fyrainput-keyboard-mouse/1.0.0) [Source](FyraInput-Keyboard-Mouse-Java-maven/) |
+| Java/jitpack | published_install_verified | [fyrainput-keyboard-mouse](https://jitpack.io/#TitanCSA/FyraInput-Keyboard-Mouse-SDK/java-sdk-v1.0.0) [Source](FyraInput-Keyboard-Mouse-Java-maven/) |
+| Go/modules | published_install_verified | [fyrainput-keyboard-mouse](https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0) [Source](FyraInput-Keyboard-Mouse-Go-modules/) |
+| Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0) |
+| PowerShell/gallery | published_install_verified | [FyraInputKeyboardMouse](https://www.powershellgallery.com/packages/FyraInputKeyboardMouse/1.0.0) [Source](FyraInput-Keyboard-Mouse-PowerShell-gallery/) |
+| Dart/pub-dev | published_install_verified | [fyrainput_keyboard_mouse](https://pub.dev/packages/fyrainput_keyboard_mouse) [Source](FyraInput-Keyboard-Mouse-Dart-pub-dev/) |
+| Ruby/rubygems | published_install_verified | [fyrainput-keyboard-mouse](https://rubygems.org/gems/fyrainput-keyboard-mouse) [Source](FyraInput-Keyboard-Mouse-Ruby-rubygems/) |
+| PHP/packagist | composer_source_and_tag_published | [titancsa/fyrainput-keyboard-mouse](https://packagist.org/packages/titancsa/fyrainput-keyboard-mouse) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 
