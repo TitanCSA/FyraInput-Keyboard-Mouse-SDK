@@ -1,5 +1,11 @@
 # FyraInput-Keyboard-Mouse SDK packages
 
+<!-- simple-start:start -->
+Use the FyraInput keyboard and mouse library in your own app.
+
+**Start here.** Choose an available package and start with its smallest example.
+<!-- simple-start:end -->
+
 > [!IMPORTANT]
 > **Contact TitanCSA**
 >
